@@ -1,0 +1,12 @@
+.UsersList {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.h1 {
+    text-align: center;
+}

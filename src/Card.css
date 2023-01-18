@@ -1,0 +1,35 @@
+.div {
+    background-color: grey;
+    text-align: center;
+    position: relative;
+}
+
+.firstName {
+    color: lightblue;
+}
+
+.lastName {
+    color: brown;
+}
+
+.red {
+    border: 1px solid red;
+}
+
+.green {
+    border: 1px solid green;
+}
+
+.badge {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+    z-index: 1;
+    border-radius: 100%;
+    background-color: blueviolet;
+    top: -10px;
+    right: -10px;
+}
