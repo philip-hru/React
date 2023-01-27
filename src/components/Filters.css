@@ -1,0 +1,16 @@
+.nameFilter {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 5px;
+}
+
+.inputs_div {
+    display: flex;
+    justify-content: space-between;
+    gap: 3px;
+}
+
+.radios {
+    display: flex;
+}

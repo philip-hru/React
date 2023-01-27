@@ -1,7 +1,8 @@
 import "./Card.css";
 import { usersList } from "./users";
 
-export function Card({ picture, firstName, lastName, gender, dob }) {
+export function Card({ user }) {
+  var { gender, picture, name, dob } = user;
   var border = "";
   if (gender == "male") {
     border = "green";
@@ -11,12 +12,13 @@ export function Card({ picture, firstName, lastName, gender, dob }) {
   }
   return (
     <div className={"div " + border}>
-      <img src={picture} />
-      <p className="firstName">{firstName}</p>
-      <p className="lastName">{lastName}</p>
+      <img src={picture.large} />
+      <p className="firstName">{name.first}</p>
+      <p className="lastName">{name.last}</p>
       <div className="badge">
         <span className="span">{dob.age}</span>
       </div>
     </div>
   );
 }
+
